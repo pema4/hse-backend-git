@@ -6,3 +6,7 @@ void main() {
     sb.append("world");
     IO.println(sb);
 }
+
+int f() {
+    return 42;
+}
