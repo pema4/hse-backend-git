@@ -1,3 +1,8 @@
+import java.lang.StringBuilder;
+
 void main() {
-    IO.println("Hello, world");
+    var sb = new StringBuilder();
+    sb.append("Hello, ");
+    sb.append("world");
+    IO.println(sb);
 }
